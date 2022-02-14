@@ -1,0 +1,16 @@
+<h2 style="text-align: center;">
+    We going to work with Bindng
+</h2>
+<!--interpolation-->
+<h3> First We have {{name}}</h3>
+<!--Property Binding-->
+<img [src] ="image" class="center">
+<input [value]="hint" type ="text">
+<!--Event Binding-->
+<div style="text-align: center;">
+<button (click)="onClick()">Subscribe us</button>
+<br>
+<!--Two way Binding-->
+<input [(ngModel)]="value" type="text">
+{{value}}
+</div> 
